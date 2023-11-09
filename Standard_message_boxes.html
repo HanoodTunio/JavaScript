@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hey this is my heading</h1>
+    <p>We are learning javaScript...</p>
+    <Button>Hey click me</Button>
+
+
+    <script>
+        // internal javaScript
+        console.log("Hey! this is my JavaScript");
+
+        let name = prompt("enter your name");
+        alert("Hey! " + name);
+
+        let choice = confirm("Are you sure, you want this");
+        if (choice) {
+            location.href = "https://www.google.com";
+        }
+        else {
+            alert("Not nevigating to google");
+        }
+        // alert(choice);
+        // console Object
+        // log, warn, error, table, time, clear, info
+
+        console.log("Hey! this is log");
+        console.warn("Hey! this is warning");
+        console.error("Hey! this is error");
+        console.info("Trying");
+
+
+        let student = {
+            name: "Hanood",
+            phone: "123456789",
+            address: "Sukkur"
+        }
+        console.log(student);
+        console.table(student);
+
+    </script>
+</body>
+
+</html>
